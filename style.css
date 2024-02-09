@@ -162,7 +162,20 @@ a:active {
 }
 
 /* css floats /and clear/ */
-
+/* fix float - overflow: auto; & display: flow-root; */
+.block {
+    width: 30vw;
+    height: 30vh;
+    padding: 1rem;
+}
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+.right {
+    float: right;
+    margin-right: 1rem;
+}
 
 
 
