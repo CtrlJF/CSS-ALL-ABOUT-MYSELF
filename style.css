@@ -56,10 +56,52 @@ figcaption {
 }
 .sp {
     font-size: 1rem; 
-    width: 40ch;
+    width: 60ch;
 }
 
 /* css box model */
+.tc1, .sp1 {
+    border: 10px double purple; /* outset, double */
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1.5em;
+    outline: 5px solid darkcyan;
+    outline-offset: 3px;
+}
+
+/* css typography */
+.pd {
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 5em;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+    /* text, font, word, letter, line, font-family 
+    (times new roman, sans serif, monospace, curvisive, arial)
+    font.google.com - list of font
+    */
+}
+
+/* css style links */
+/* follow the order - a,av,ah,aa*/
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover, a:focus { /* when tab it will have a color=dodgerblue*/
+    color: dodgerblue; /* opacity, other colors, transparent */
+    background-color: gray;
+}
+a:active {
+    color: red;
+}
+
+
 
 
 
