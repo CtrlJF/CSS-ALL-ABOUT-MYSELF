@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 /* css selectors */
 * {
     font-family: monospace;
@@ -176,6 +179,80 @@ a:active {
     float: right;
     margin-right: 1rem;
 }
+
+/* css position property */
+.fc {
+    border: 2px solid blue;
+    width: 40vw;
+    height: 70vh;
+    margin: 50px auto;
+    position: relative;
+}
+.ffc {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.fh2 {
+    position: relative;
+    top: 50px;
+    left: 190px;
+}
+/* .ffix {
+    position: fixed;
+    top: 250px;
+} */
+
+/* css flex box */
+/* .example{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-content: flex-start;
+
+    flex-grow: 1;
+    flex-basis: 100px;
+} 
+.example:nth-child(2){
+    flex-grow: 2;
+}
+*/
+.container {
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 1px solid #d73030;
+}
+.ddc {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+.box {
+    min-height: 100px;
+    min-width: 100px;
+    background-color: black;
+    color: black;
+    font-size: 2rem;
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover {
+    color: whitesmoke;
+}
+.dh2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* css grid */
 
 
 
